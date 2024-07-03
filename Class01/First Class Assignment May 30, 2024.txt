@@ -1,0 +1,32 @@
+<html>
+
+<body>
+<h1> <b>BioData </b></h1>
+<p> Here is my brief BioData.</p>
+
+<h3> <b>Name</b></h3>
+<p> This is Muhammad Abdullah. 
+
+<h3> Education</h3>
+I am at Hamdard Univerty, doing BSCS and currently in third year.</p>
+
+<h3> <b>Father Name</b></h3>
+<p> My father my is Muhammad Abbas and he is an engineer.</p>
+<p>
+.
+.
+.
+.
+.
+</p>
+
+<p><i>This is my brief biodata. Hpoe you like it.</i>
+</p>
+<p>
+<b> Thank You...</b>
+</p>
+
+
+
+</body>
+</html>
