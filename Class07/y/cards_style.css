@@ -1,0 +1,79 @@
+body {
+  background-color: rgb(222, 214, 214);
+}
+
+.cards-container {
+font-family: Arial;
+background-color: rgb(222, 214, 214);
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+
+.cards {
+display: flex;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+gap: 40px;
+padding: 20px;
+width: 100%;
+max-width: 1200px;
+}
+
+.card {
+flex: 1;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+background-color: rgb(247, 240, 240);
+}
+
+.card > img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+.card-text {
+padding: 0 20px;
+margin-bottom: 25px;
+}
+
+.card-name {
+font-size: 28px;
+font-weight: bold;
+margin-left: 8px;
+margin-bottom: 5px;
+}
+
+.card-description {
+font-size: 17px;
+font-weight: 500;
+margin-left: 8px;
+margin-bottom: 15px;
+line-height: 28px;
+}
+
+.bold-word {
+font-weight: 600;
+}
+
+.explore-button {
+background-color: rgb(220, 230, 250);
+color: rgb(66, 90, 245);
+border: none;
+padding: 10px 20px;
+border-radius: 4px;
+font-size: 20px;
+margin: 10px 0 20px;
+display: block;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.cards-author {
+margin-top: 50px;
+text-align: center;
+background-color: rgb(247, 240, 240);
+width: 100%;
+padding: 10px 0;
+}

@@ -1,0 +1,39 @@
+
+table {
+  border-collapse: collapse;
+  border: 2px solid black;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  margin-left: 500px;
+  margin-top: 120px;
+}
+
+caption {
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 15px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border: 1px solid black;
+}
+
+
+
+thead {
+  background-color: rgb(134,153,96);
+  color: white;
+}
+
+tbody>tr:nth-child(2n) {
+  background-color: lightgray;
+}
+
+tbody tr td:nth-child(2) {
+  text-align: center;
+}
+
+tfoot>tr>th {
+  text-align: right;
+}
