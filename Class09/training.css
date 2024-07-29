@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.training-container {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.header {
+    text-align: center;
+    color: #006838;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    
+}
+
+.header h4 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.courses-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-box {
+    padding: 20px;
+    max-width: 25%;
+    text-align: center;
+}
+
+.course-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.course-title {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+}

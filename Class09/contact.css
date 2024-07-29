@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-heading {
+    color: gray;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    background-color: #f9f9f9;
+}
+
+.contact-link {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    display: block;
+    text-align: center;
+    color: #006838;
+    text-decoration: none;
+}
+
+.form-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-label {
+    display: block;
+    font-size: 14px;
+    color: #4a4a4a;
+    margin-bottom: 8px;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 14px;
+    color: #333;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #6366f1;
+    box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.2);
+    outline: none;
+}
+
+.form-textarea {
+    height: 120px;
+    resize: none;
+}
+
+.form-submit-button {
+    background-color: #006838;
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out;
+}
+
+.form-submit-button:hover {
+    background-color: #ffffff;
+    color: #006838;
+}
+
+.span-name {
+    color: red;
+}
+
+.span-email {
+    color: red;
+}
+
+.span-phone {
+    color: red;
+}
+
+.span-message {
+    color: red;
+}

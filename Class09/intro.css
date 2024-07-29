@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.intro-container {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro-text {
+    flex-grow: 1;
+    max-width: 50%;
+    margin-bottom: 20px;
+}
+
+.intro-title {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #006838;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.intro-description {
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: rgb(113, 128, 150);
+    text-align: left;
+}
+
+.intro-image {
+    max-width: 50%;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
