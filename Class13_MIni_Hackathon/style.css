@@ -1,0 +1,70 @@
+.nav1 {
+    background-color: #c30047;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navp {
+    margin-left: 15px;
+}
+
+.navfont {
+    margin-right: 30px;
+}
+
+.navb {
+    border-left: 1px solid white;
+}
+
+.c-cap-1 {
+    margin-right: px;
+    margin-bottom: 100px;
+}
+
+.count_Section {
+    background-image: url("./images/section-bg1.jpg");
+}
+
+.carousel-caption h5 {
+    font-size: 50px;
+}
+
+.carousel-caption p {
+    font-size: 25px;
+}
+
+.c-cap-2 {
+    margin-left: 500px;
+}
+
+.sec-padding {
+    margin-top: 200px;
+}
+
+.about-t h1 {
+    font-size: 60px;
+}
+
+.about-t p {
+    font-size: 20px;
+}
+
+.need-back {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 500px;
+    background-image: url(https://preview.colorlib.com/theme/chariter/assets/img/gallery/section-bg2.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer {
+    background-color: #301a22;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+}
