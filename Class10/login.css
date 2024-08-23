@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8e24aa;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+}
+
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+button {
+    width: 60%;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: blueviolet;
+    background-color: white;
+    cursor: pointer;
+}
+
+.info-box {
+    background-color: rgba(123, 42, 232, 0.5);
+    background-image: url("./img/image.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding: 40px;
+}
+
+.info-box h1 {
+    font-size: 3.2em;
+    margin-bottom: 10px;
+}
+
+.info-box h4 {
+    font-size: 2em;
+    font-weight: 300;
+    text-transform: lowercase;
+}
+
+.forgot-password {
+    font-size: 0.5em;
+    display: block;
+    margin-bottom: 20px;
+    color: #8e24aa;
+    text-decoration: none;
+}
+
+.textbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.textbox i {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8e24aa;
+}
+
+.textbox input {
+    width: 80%;
+    padding: 10px 10px 10px 50px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+p {
+    font-size: 20px;
+}

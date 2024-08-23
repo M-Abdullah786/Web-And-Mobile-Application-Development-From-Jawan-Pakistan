@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 10</title>
+    <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="signup-form">
+            <form action="/submit-form" method="post">
+                <h1>Sign Up</h1>
+                <label for="fname">First Name:</label>
+
+                <br />
+                <input type="text" id="fname" name="fname" required />
+                <br />
+                <br />
+                <label for="lname">Last Name:</label>
+
+                <br />
+                <input type="text" id="lname" name="lname" required />
+                <br />
+                <br />
+                <label for="email">Email:</label>
+                <br />
+                <input type="email" id="email" name="email" required />
+                <br />
+                <br /> Gender:
+                <input type="radio" id="female" name="gender" value="female" required />
+                <label for="female">Female</label>
+                <input type="radio" id="male" name="gender" value="male" required />
+                <label for="male">Male</label>
+                <br />
+                <br />
+                <label for="password">Password: </label>
+                <br />
+                <input type="password" id="password" name="password" required />
+                <br />
+                <br />
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+
+        <div class="picture-quote">
+            <h1>Every new friend is a new adventure.</h1>
+            <h4>let's get connected</h4>
+        </div>
+    </div>
+</body>
+
+</html>
