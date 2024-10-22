@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=RNsqmCP8joVQ&format=png&color=000000" type="image/x-icon" />
+</head>
+
+<body>
+    <header>
+        <h1> <i class="fa-solid fa-calculator"></i> App</h1>
+    </header>
+
+    <section class="main">
+        <div id="output">
+            <input id="inputField" readonly class="result" type="text" />
+        </div>
+        <div>
+            <button onclick="clearAll()" class="clearAllBtn">
+          <i class="fa-solid fa-c"></i>
+        </button>
+            <button onclick="backspace()" class="backspaceBtn">
+          <i class="fa-solid fa-delete-left"></i>
+        </button>
+            <button onclick="percentage('%')" class="btn operator">
+          <i class="fa-solid fa-percent"></i>
+        </button>
+            <button onclick="getValue('/')" class="btn operator">
+          <i class="fa-solid fa-divide"></i>
+        </button>
+        </div>
+        <div>
+            <button onclick="getValue(7)" class="btn">
+          <i class="fa-solid fa-7"></i>
+        </button>
+            <button onclick="getValue(8)" class="btn">
+          <i class="fa-solid fa-8"></i>
+        </button>
+            <button onclick="getValue(9)" class="btn">
+          <i class="fa-solid fa-9"></i>
+        </button>
+            <button onclick="getValue('*')" class="btn operator">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+        </div>
+        <div>
+            <button onclick="getValue(4)" class="btn">
+          <i class="fa-solid fa-4"></i>
+        </button>
+            <button onclick="getValue(5)" class="btn">
+          <i class="fa-solid fa-5"></i>
+        </button>
+            <button onclick="getValue(6)" class="btn">
+          <i class="fa-solid fa-6"></i>
+        </button>
+            <button onclick="getValue('-')" class="btn operator">
+          <i class="fa-solid fa-minus"></i>
+        </button>
+        </div>
+        <div>
+            <button onclick="getValue(1)" class="btn">
+          <i class="fa-solid fa-1"></i>
+        </button>
+            <button onclick="getValue(2)" class="btn">
+          <i class="fa-solid fa-2"></i>
+        </button>
+            <button onclick="getValue(3)" class="btn">
+          <i class="fa-solid fa-3"></i>
+        </button>
+            <button onclick="getValue('+')" class="btn operator">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+        </div>
+        <div>
+            <button onclick="getValue('00')" class="btn">
+          <i class="fa-solid fa-0"></i><i class="fa-solid fa-0"></i>
+        </button>
+            <button onclick="getValue(0)" class="btn">
+          <i class="fa-solid fa-0"></i>
+        </button>
+            <button onclick="getValue('.')" class="btn">
+          <i style="font-size: 6px" class="fa-solid fa-circle"></i>
+        </button>
+            <button onclick="result()" class="btn equal">
+          <i class="fa-solid fa-equals"></i>
+        </button>
+        </div>
+    </section>
+
+    <footer>
+        Made with <span style="color: #e74c3c">❤</span> by
+        <a href="https://github.com/M-Abdullah786" target="_blank">SMAbdR</a>
+    </footer>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

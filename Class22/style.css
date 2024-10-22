@@ -1,0 +1,246 @@
+/* Global Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Center the calculator vertically and horizontally */
+
+body,
+html {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f7f9fb;
+    /* Soft light background */
+    font-family: 'Poppins', Arial, sans-serif;
+    transition: background-color 0.3s;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 26px;
+    color: #3b3e42;
+}
+
+
+/* Main calculator container */
+
+.main {
+    background-color: #3b3e42;
+    /* Darker slate for the calculator */
+    padding: 25px;
+    border-radius: 20px;
+    /* Rounded corners */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    width: 340px;
+    /* Slightly wider for a modern feel */
+    margin-top: 20px;
+    animation: pop-in 0.5s ease-in-out;
+    transition: all 0.3s ease;
+}
+
+
+/* Calculator display */
+
+#output {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+#output input {
+    width: 100%;
+    height: 65px;
+    /* Increased height for a cleaner look */
+    border-radius: 12px;
+    border: none;
+    font-size: 28px;
+    /* Increased font size */
+    padding: 20px;
+    text-align: right;
+    background-color: #eceff1;
+    /* Softer display color */
+    color: #2d3e50;
+    /* Dark text color */
+    outline: none;
+    transition: all 0.3s;
+}
+
+
+/* Button styles */
+
+button {
+    width: 65px;
+    /* Larger button size */
+    height: 65px;
+    margin: 8px 6px;
+    /* Adjusted spacing */
+    font-size: 22px;
+    border-radius: 15px;
+    /* Rounded button corners */
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.1s;
+}
+
+
+/* Hover effects */
+
+button:hover {
+    transform: scale(1.06);
+}
+
+
+/* Button click effect */
+
+button:active {
+    transform: scale(0.94);
+}
+
+
+/* Clear and Backspace buttons */
+
+.clearAllBtn,
+.backspaceBtn {
+    background-color: #ff5f5f;
+    /* More vibrant red */
+    color: white;
+}
+
+.clearAllBtn:hover,
+.backspaceBtn:hover {
+    background-color: #e84141;
+    /* Darker hover */
+}
+
+
+/* Number and operation buttons */
+
+.btn {
+    background-color: #dce3e6;
+    /* Soft grey for the buttons */
+    color: #2d3e50;
+}
+
+.btn:hover {
+    background-color: #bfc9cd;
+}
+
+
+/* Operator button */
+
+.btn.operator {
+    background-color: #1abc9c;
+    /* Teal for operators */
+    color: white;
+}
+
+.btn.operator:hover {
+    background-color: #17a085;
+}
+
+
+/* Equals button */
+
+.btn.equal {
+    background-color: #48b1f4;
+    /* Sky blue for the equals button */
+    color: white;
+}
+
+.btn.equal:hover {
+    background-color: #3998d3;
+}
+
+
+/* Adjust spacing for button rows */
+
+div {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 16px;
+    color: #3b3e42;
+    /* Dark slate */
+}
+
+footer a {
+    color: #1abc9c;
+    /* Teal link */
+    text-decoration: none;
+}
+
+
+/* Animations */
+
+@keyframes pop-in {
+    0% {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+
+/* Dark Mode Toggle Button */
+
+.toggle-dark-mode {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 45px;
+    /* Larger toggle button */
+    height: 45px;
+    background-color: #3b3e42;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-dark-mode:hover {
+    background-color: #1abc9c;
+    /* Teal for hover */
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 400px) {
+    .main {
+        width: 100%;
+        padding: 15px;
+    }
+    button {
+        width: 55px;
+        height: 55px;
+        margin: 5px;
+        font-size: 20px;
+    }
+    #output input {
+        font-size: 24px;
+        height: 50px;
+    }
+}
